@@ -56,7 +56,7 @@ body{
     margin: 0 6em;
 }
 .imagem-secundaria{
-    width: 110%;
+    width: 80%;
 }
 .secundario{
     align-items: center;
@@ -71,35 +71,27 @@ body{
 .descricao-texto{
     color: var(--cinza-secundario);
 }
-.tres{
-    background-color: var(--botao-azul);
-    border-radius: 5px;
-    padding: 1em;
-    color: var(--branco-principal);
+.secundario-botao{
     display: inline-block;
-    text-decoration: none;
-    margin-bottom: 1em ;
     margin-top: 1em;
-
-}
-.imagem-tres{
-    width: 80%;
 }
 .container-descricao{
-padding: 2em;
+    padding: 2em;
 }
-
-.imagem-quatro{
-    width: 130%;
-    mar
+.dispositivos-lista{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 5em 0   ;
 }
-.descricao-titulo3{
-    font-weight: 700;
-    font-size: 50px;
+.dispositivos{
+    text-align: center;
+}
+.dispositivos-titulo{
+    font-size: 48px;
     color: var(--branco-principal);
-    margin-bottom: 0.2em;
 }
-.descricao-texto3{
-    color: var(--cinza-secundario);
+.lista-item{
+    font-size: 38px;
+    color: var(--branco-principal);
 }
-
